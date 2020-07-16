@@ -1,0 +1,47 @@
+{
+  "name": "xagent",
+  "version": "1.7.0",
+  "description": "xnpp agent",
+  "bin": {
+    "xagent": "bin/xagent.js"
+  },
+  "main": "agent.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint lib bin *.js commands --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:suning-xiaofeizhe/x-agent.git"
+  },
+  "keywords": [
+    "xnpp",
+    "agent"
+  ],
+  "files": [
+    "lib",
+    "bin",
+    "commands",
+    "agent.js"
+  ],
+  "author": "hyj1991",
+  "license": "MIT",
+  "dependencies": {
+    "address": "^1.1.2",
+    "formstream": "^1.1.0",
+    "moment": "^2.24.0",
+    "nounou": "^1.2.1",
+    "semver-compare": "^1.0.0",
+    "split2": "^3.1.1",
+    "through2": "^3.0.1",
+    "tunnel-agent": "^0.6.0",
+    "urllib": "^2.34.1",
+    "uuid": "^3.3.3",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  }
+}
